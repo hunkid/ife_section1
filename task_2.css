@@ -1,0 +1,117 @@
+body{
+	background-color: #D3D3D3;
+	margin: 0;/*不加这一句，header footer都有边margin*/
+	font-size: samll;
+	font-family: "微软雅黑", sans-serif;
+}
+header, footer{
+	
+	height: 60px;
+	margin: 0px;
+	background-color:#808080;
+	
+}
+#dhlist {
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	display: inline-block;
+	color: white;
+}
+
+#dhlist a:link{
+	color: white;
+}
+#dhlist a:visted{
+	color: gray;
+}
+#dhlist a:hover{
+	color: black;
+}
+h1{font-size: 1.6em}
+h2{
+	font-size: 1.4em;
+	color:gray;
+}
+.articledesc{
+	font-size: 0.6em;
+	color:gray;
+}
+article, figure, aside{
+	border: 2px thin solid;
+	margin:20px 20px 20px 20px;
+	padding:20px 20px 20px 20px;
+	background-color: white;
+}
+.showpic{
+	border: 1.5px solid lightgray;
+	width: 110px;
+	margin-left:30px;
+	margin-top: 15px;
+}
+.showpic > img{
+	margin:10px;
+}
+figcaption{
+	margin-top: 10px;
+	margin-left: 25px;
+	font-size: 0.6em;
+}
+/*article#sp{
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}*/
+#tableshow{
+	border-collapse: collapse;
+	font-size: 0.8em;
+	width: 100%;/*这个非常棒的方法*/
+}
+#tableshow col{
+	width: 40%;
+}
+#tableshow col:last-child{
+	width:20%;
+}
+#tableshow th{
+	background-color: black;
+	color: white;
+}
+#tableshow td{
+	padding:0.3em;
+	border:1px solid gray;
+}
+#tableshow tfoot{
+	background-color: gray;
+	font-weight: bold;
+}
+
+body aside > h1{
+	border-left: solid 3px gray;
+	padding-left: 8px;
+	font-size: 1.2em;
+}
+span.fieldright{
+	text-align: right;
+	width: 460px;/*这里一定要注意，有个宽度*/
+	display: inline-block;
+	margin-right: 10px;
+}
+p.tips{
+	font-size: 0.8em;
+	color: lightgray;
+	margin-left: 470px;
+}
+button#btn{
+	background: #3355d0;
+	border: none;
+	color: white;
+	width: 100%;
+	height: 40px;
+	border-radius: 14px;
+	margin-top: 20px;
+}
+footer{
+	text-align: center;
+	vertical-align: center;
+	line-height: 60px;/*把行高设置成总宽一样，就可以把文字居中对齐了*/
+}
