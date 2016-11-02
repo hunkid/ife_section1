@@ -1,0 +1,51 @@
+/*采用浮动布局的方式*/
+body{
+	margin:0;
+	font-size: medium;
+	font-family: "Microsoft Yahei",sans-serif;
+	padding: 20px;
+	background-color: #eee;
+	border-width: 2px;
+	border-color: #999;
+}
+section,article,figure{
+	border:1px #999 solid;
+	background-color: white;
+	margin: 0px;
+	padding: 20px;
+}
+#logoshow{
+	float: left;
+	width: 160px;/*记住：width只是内容区的宽度，不包括内外边距*/
+}
+#logoshow img{
+	float: left;/*这样文字多少都不怕了*/
+}
+#logoshow #teamid{
+	font-size: 1em;
+	font-weight: bold;
+	vertical-align: top;
+	display: inline;
+	width: 60px;
+	float: right;
+	padding: 0;
+	margin:0 auto;
+}
+figure#meshow{
+	width: 80px;
+	float: right;
+}
+figure img{
+	margin-bottom: 20px;
+}
+article#maindesc{
+	margin-left: 220px;
+	margin-right: 140px;
+}
+
+article h3{
+	font-size: 1.1em;
+}
+/*figure{
+	float: right;
+}*/
