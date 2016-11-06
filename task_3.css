@@ -16,6 +16,7 @@ section,article,figure{
 }
 #logoshow{
 	float: left;
+	margin-right: 20px;
 	width: 160px;/*记住：width只是内容区的宽度，不包括内外边距*/
 }
 #logoshow img{
@@ -39,8 +40,11 @@ figure img{
 	margin-bottom: 20px;
 }
 article#maindesc{
-	margin-left: 220px;
+	/*margin-left: 220px;
 	margin-right: 140px;
+*/
+
+	overflow: hidden;
 }
 
 article h3{
