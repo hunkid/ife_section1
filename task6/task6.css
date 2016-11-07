@@ -1,0 +1,83 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+body{
+	width: 892px;/*注意不是980*/
+	height: 1386px;
+	padding:  0px 44px;
+	margin: 0 auto;
+
+}
+
+header{
+	height: 61px;
+	width: 100%;
+	position: relative;/*为了下面位置的相对*/
+	border-bottom: 2px #938e8c solid;
+	
+}
+header div.til{
+	font-size: 12px;
+	font-family:"黑体", sans-serif;
+	color: #fff;
+	width: 100px;
+	height: 56px;
+	display: table-cell;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	background-color: #CD5C5C;
+	vertical-align: bottom;
+}
+header div.date{
+	font-size: 12px;
+	position: absolute;
+	right: 0px;
+	bottom: 5px;
+	font-family:"黑体", sans-serif;
+	color: #d45d5c;
+}
+section, aside{
+	margin-top: 40px;
+}
+
+aside.section1{
+	float: right;
+	width: 207px;
+	padding-top: 20px;
+	
+}
+
+aside h1{
+	font-size: 24px;
+	line-height: 40px;
+	font-family:"Microsoft YaHei", sans-serif;
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+aside h1 span.bol{
+	font-size: 28px;
+	font-weight: bold;
+}
+aside h3{
+	font-size: 12px;
+	line-height: 10px;
+	font-family: "楷体", sans-serif;
+	font-weight: normal;
+}
+
+aside p.green{
+	font-size: 116px;
+	font-family: "微软雅黑", sans-serif;
+	color: #75b86b;
+	font-style: italic;
+}
+
+
+
+
+
+
+
+
