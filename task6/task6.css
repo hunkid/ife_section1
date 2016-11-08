@@ -74,7 +74,78 @@ aside p.green{
 	font-style: italic;
 }
 
+p.c1{
+	margin-right: 15px;
+	padding: 0px;
+	font-size: 55px;
+	line-height: 1em;
+	font-family: "Microsoft YaHei";
+	color: #cc8091;
+	float: left;
+}
+p.c2{
+	margin-top: 10px;/*有没有更好的方法？让其下对齐*/
+	font-size: 21px;
+	font-family: "Microsoft YaHei";
+	color: #cc8091;
+}
+p.c3{
+	font-size: 12px;
+	font-family: "Microsoft YaHei";
+	color: #cc8091;
+}
 
+article.section2{
+	width: 200px;
+	margin-top: 44px;
+	margin-right: 25px;
+	float: left;
+}
+article.section2 h2.p1, article h2.p2, article h2.p3{
+	font: 16px "微软雅黑" bold;
+	text-decoration: underline;
+	margin-bottom: 10px;
+}
+article.section2 h2.p1{
+	color: #418c59;
+}
+article.section2 h2.p2{
+	color: #d2994f;
+}
+article.section2 h2.p3{
+	color: #cc7680;
+}
+
+article.section2 p{
+	font: 12px/16px "宋体";
+	color: #767777;
+}
+
+article div.list{
+	margin-top: 20px;
+}
+article div.list p{
+	font-size: 12px;
+	line-height: 1.8em;
+
+}
+
+article div.list p span{
+	font-size: 12px;
+	line-height: 16px;
+	font-family: "微软雅黑";
+	font-style: italic;
+	color: rgba(205,74,72,0.7);
+
+}
+section.section3{
+	clear: both;
+	padding-top: 50px;
+}
+
+section.section3 article h1 span{
+	font:  bold italic 72px "黑体",sans-serif;
+}
 
 
 
