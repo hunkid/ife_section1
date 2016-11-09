@@ -143,8 +143,81 @@ section.section3{
 	padding-top: 50px;
 }
 
-section.section3 article h1 span{
-	font:  bold italic 72px "黑体",sans-serif;
+.section3 article h1{
+	padding-top: 20px;
+	font: bold normal 38px "黑体",sans-serif;
+	color: #11456b;
+	line-height: 39px;
+}
+
+.section3 article h1 span{
+	font:  bold italic 60px "黑体",sans-serif;
+	color: #f5e327;
+}
+
+.section3 article h2{
+	font:  bold normal 33px "黑体",sans-serif;
+	color: #11456b;
+	padding-bottom: 8px;
+	border-bottom: 2px solid #11456b;
+}
+
+.section3 article p.t1 span{
+	font: normal 70px "Microsoft YaHei";
+	float: left;
+	color: #f5e327;
+	margin-right: 5px;
+}
+
+.section3 article p.t1{
+	margin-top: 20px;
+}
+
+.section3 article p{
+	font: normal 12px "宋体";
+	color: #767777;
+}
+
+.section3 article p.indent{
+	text-indent: 2em;
+}
+
+#hi{
+	float: right;
+	margin: 15px 0 15px 15px;
+}
+.section3 aside{
+	width: 459px;
+	float: right;
+	margin-left: 20px;
+}
+
+.section3 article{
+	overflow: hidden;
+}
+
+.section3 aside div.banner{
+	width: 458px;
+	height: 61px;
+	background-color: rgba(0,0,0,0.3);
+	position: relative;
+	top: -64px;
+}
+
+.section3 aside div.banner .aa1{
+	border-left: 3px solid #72b16a;
+	padding:7px 0px 7px 3px;
+	font: normal 26px "Microsoft YaHei";
+	color: #ffffff;
+	position: absolute;
+	left: 25px;
+	bottom:4px;
+}
+.section3 aside div.banner .aa2{
+
+	font: italic 12px "Microsoft YaHei";
+	color: #72b16a;
+
 }
 
 
