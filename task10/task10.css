@@ -1,0 +1,44 @@
+*{
+	padding: 0;
+	margin:0;
+}
+
+body{
+	padding: 10px;
+}
+
+.wraper{
+	border:1px solid gray;
+	width: 100px
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#a1, #a2, #a3,#a4{
+	width: 148px;
+	margin: 10px;
+	border:1px solid red;
+}
+#a1 { height: 120px;}
+#a2 { height: 100px;}
+#a3 { height: 40px}
+#a4 {
+	height: 200px;
+	border:1px solid blue;
+}
+
+@media all and (max-width: 640px){
+	.wraper {
+		align-items: flex-start;
+	}
+
+	#a4{
+		order: -1;
+	}
+}
+
+
